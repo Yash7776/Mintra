@@ -11,6 +11,7 @@ import {
 } from 'react-router-dom';
 import Products from './components/Products'
 import Productview from './components/Productview'
+import Footer from './components/Footer'
 function App() {
 
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route exact path='/products' element={<Products />} />
           <Route exact path='/productview' element={<Productview />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   )
